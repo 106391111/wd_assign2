@@ -1,7 +1,7 @@
-wd_assign2 – Movie Booking Website
+ScreenSpot – Movie Booking Website
 
 PROJECT DESCRIPTION
-wd_assign2 is a movie booking website developed as part of the COS10005 Web Development unit. The website allows users to browse movies, receive movie recommendations, register an account, and complete a movie booking form.
+ScreenSpot is a movie booking website developed as part of the COS10005 Web Development unit. The website allows users to browse movies, receive movie recommendations, register an account, and complete a movie booking form.
 
 TECHNOLOGIES USED
 - HTML5
@@ -23,6 +23,13 @@ The six fictional movie poster images used in this project were AI-generated for
 
 TESTING
 All website pages and interactive features were tested locally in the Safari browser. Navigation, movie recommendations, registration form validation, and booking form functionality were checked. The project was tested successfully without any identified issues.
+
+Mercury link
+https://mercury.swin.edu.au/cos10005/s106391111/wd_assign2/index.html
+
+GitHub respository link
+https://github.com/106391111/wd_assign2
+
 
 AUTHOR
 Name: Taniul Islam Roudro
