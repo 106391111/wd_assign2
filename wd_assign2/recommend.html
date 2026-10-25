@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations | ScreenSpot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="index.html">ScreenSpot</a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a class="active" href="recommend.html">Recommendations</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="booking.html">Book Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <p class="eyebrow">YOUR NEXT FAVOURITE FILM</p>
+            <h1>Find Your Movie</h1>
+            <p>Tell us what you enjoy, and we'll suggest a movie.</p>
+        </section>
+
+        <section class="recommend-section section">
+            <form id="recommend-form" class="recommend-form">
+                <div class="form-group">
+                    <label for="genre">Preferred genre</label>
+                    <select id="genre" name="genre" required>
+                        <option value="">Choose a genre</option>
+                        <option value="Action">Action</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Science Fiction">Science Fiction</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Thriller">Thriller</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="age-group">Age group</label>
+                    <select id="age-group" name="ageGroup" required>
+                        <option value="">Choose your age group</option>
+                        <option value="Child">Child</option>
+                        <option value="Teen">Teen</option>
+                        <option value="Adult">Adult</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="viewing">Viewing preference</label>
+                    <select id="viewing" name="viewing" required>
+                        <option value="">Choose an occasion</option>
+                        <option value="Family">Family</option>
+                        <option value="Date Night">Date Night</option>
+                        <option value="Friends">Friends</option>
+                        <option value="Solo">Solo</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">
+                    Find My Movie
+                </button>
+            </form>
+
+            <div id="recommend-results"
+                 class="recommend-results"
+                 aria-live="polite">
+                <h2>Your Recommendations</h2>
+                <p>Choose your preferences to discover a movie.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 ScreenSpot. Student web development project.</p>
+    </footer>
+</body>
+</html>
